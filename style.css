@@ -14,8 +14,9 @@ body {
   }
 
   .card {
-    
-    margin: 12%;
+    display: flex;
+     margin: 12%;
+    text-align: center;
     width: 75%;
 
   }
@@ -25,10 +26,7 @@ body {
     color: white;
   }
 
-  img {
-    
-    
-  }
+  
 
   p {
    margin: 5px 5px;
