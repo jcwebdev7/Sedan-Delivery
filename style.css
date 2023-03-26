@@ -21,7 +21,7 @@ body {
 
   .card {
     display: flex;
-     margin: 12%;
+     margin: 15%;
     text-align: center;
     width: 75%;
 
@@ -38,6 +38,10 @@ body {
 
   p {
    margin: 5px 5px;
+  }
+
+  .thumbnail {
+    margin: 15px 15px;
   }
   
   
