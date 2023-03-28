@@ -51,60 +51,60 @@
       </div>
     </div>
   </nav>
-
-
-
-    
 <body class="bg-black">
-<div class="container-fluid mt-3">
-    <h1 class="display-1 text-light text-center m-5">Sedan Delivery</h1>
-   
-      <div class="container">
-        <div class="card mb-5">
-          <img class="" src="img/gig2.jpg" alt="">
-        </div>
-      </div>
-     <div class="container">
-    <p class="text-light text-center fs-2   pt-5"> Sedan Delivery arrived  on the  music scene of the Tower district in Fresno, California in 1988</p></div> 
-    <div class="row mt-5">
-        <div class="container">
-      <div class="col">
-            <div class="card my-5"><img src="img/sd1.jpg" alt=""></div>
-        </div>
-      <div class="col">
-            <div class="card my-5"><img src="img/sd3.jpg" alt=""></div>
-        </div></div>
 
+    <div class="container-fluid mt-3">
+    <h1 class="display-1 text-light text-center m-5">Contact Us</h1>
+    container
+<div class="container py-4" action="https://formsubmit.co/yosefmc7@gmail.com" method="POST">
 
-        <!-- <div class="container">
-          <div class="card bg-black">
-        <p class="text-light text-center fs-2">Reunited in 2018 after nearly 30 years, we recorded our first album "Untitled"</p>
-      </div></div> -->
-        
-        <!-- <div class="col">
-            <div class="card my-5 "><img src="img/332912061_186724690757036_9114381158758693639_n.jpg" alt=""></div>
-        </div>
-        <div class="col">
-            <div class="card my-5"><img src="img/333410487_549349503958877_8485160290672069388_n.jpg" alt=""></div>
-        </div>
-        <div class="col">
-            <div class="card my-5"><img src="img/333565963_1161914931158614_2257980866505942258_n.jpg
-                " alt=""></div>
-        </div> -->
+  <!-- Bootstrap 5 starter form -->
+  <form id="contactForm">
+
+    <!-- Name input -->
+    <div class="mb-3  text-light">
+      <label class="form-label" for="name">Name</label>
+      <input class="form-control" id="name " type="text" placeholder="Name" data-sb-validations="required" />
+      <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
     </div>
 
-    <style>
-      body {
-        overflow-x: hidden;
-      }
+    <!-- Email address input -->
+    <div class="mb-3  text-light">
+      <label class="form-label" for="emailAddress">Email Address</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+    </div>
 
-      .nav {
-        width: 100%;
-        overflow: hidden;
-      }
-    </style>
+    <!-- Message input -->
+    <div class="mb-3  text-light">
+      <label class="form-label" for="message">Message</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+      <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+    </div>
 
-    <!-- <p class="fs-1 text-light my-5">Reunited in 2018 after more than 30 years apart, they recorded their first album "Untitled" and are working on their second.</p> -->
+    <!-- Form submissions success message -->
+    <div class="d-none" id="submitSuccessMessage">
+      <div class="text-center mb-3">Form submission successful!</div>
+    </div>
+
+    <!-- Form submissions error message -->
+    <div class="d-none" id="submitErrorMessage">
+      <div class="text-center text-danger mb-3">Error sending message!</div>
+    </div>
+
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</div>
+      
+
+
+
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
