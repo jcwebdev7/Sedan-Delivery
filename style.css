@@ -44,4 +44,27 @@ body {
     margin: 15px 15px;
   }
   
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  
+  .nav-link:hover {
+    color: blue;
+    
+  }
+
+  .dropdown-item:hover {
+    color: blue;
+  }
+
+  .dropdown-item {
+    font-size: 20px;
+  }
+
+  
   
